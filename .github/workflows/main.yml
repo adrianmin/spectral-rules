@@ -27,4 +27,4 @@ jobs:
           npm install -g @stoplight/spectral-cli
       - name: Run spectral rules check
         run:
-          spectral lint petstore.yaml
+          spectral lint petstore.yaml --ruleset adidas-spectral-rules.json
